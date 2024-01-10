@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('fonts/Poppins-Regular.ttf') format('ttf'), /* Cambia la ruta y el formato según tu fuente */
+         url('fonts/Poppins-Black.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins-Regular', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +26,9 @@ header {
 
 
 h1 {
+    font-family: 'Poppins-Regular';
     margin: 0;
-    font-size: 2em;
+    font-size: 38px;
 }
 
 nav {
@@ -45,4 +54,28 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+.contenedor {
+    display: flex; /* Utilizamos flexbox para colocar los divs en línea */
+}
+
+.imagen {
+    margin-right: 100px; /* Añadimos un margen a la derecha para separar la imagen del texto */
+    padding-left:  10%;
+}
+.texto {
+    font-size: 60px; 
+    color: #2D212E;
+    line-height: 0.2;
+}
+.quien {
+    padding-top: 5%;
+    font-family: 'Poppins-Regular', sans-serif;
+    line-height: 1.1;
+    font-size: 20px;
+    text-align: justify;
+}
+.categorias p {
+    margin-bottom: 5px; /* Ajusta el margen inferior según tus necesidades */
 }
