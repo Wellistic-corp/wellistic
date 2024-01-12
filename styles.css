@@ -1,121 +1,65 @@
-.container {
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-    display: flexbox;
-    align-content: center;
-    text-align: center;
-  }
-#banner{
-    background-color: #ffcf00;
-    color: #000;
-    font-family:"Bebas Neue";
-    font-size: 4em;
-    width: 100%;
-    display: flexbox;
-}
-#sub{
-    background-color: #450d54;
-    width:300px;  
-    height:50px;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
-    padding-top: 0.5px;
-    color: #FFF;
-    font-family: 'Bebas Neue';font-size:1em;
-   
-    text-align: center;
-    border-radius: 10px 10px 10px 10px ;
-    
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('fonts/Poppins-Regular.ttf') format('ttf'), /* Cambia la ruta y el formato según tu fuente */
+         url('fonts/Poppins-Black.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.class2 {
-    background-color: #ffcf00;
-    color: #FFF;
-    padding: 10px 0px 10px 2px;
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    
-    
+body {
+    font-family: 'Poppins-Regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
 }
-.caja{
-  display: inline;
-}
-.video{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px;
-}
-footer{
-    background-color: #000;
-    color: #FFF;
-    font-family:"Bebas Neue";
-    font-size: 20px;
-    padding-bottom:1%;
-    padding-top: 9px;
-    width: 100%;
-    display: flexbox;
-}
-footer div{
-    background-color: #000;
-    color: #FFF;
-    display: flexbox;
-    align-content: center;
-    text-align: center;
-}
-body{
-    font-family: 'Raleway', sans-serif;
-    display: flexbox;
-}
-div{
-    background-color: #FFF;
-    color: #000;
-    padding: 10px 0px 10px 2px;
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    display:block;
 
+header {
+    background-image: url(img/WELLISTIC_Mesa\ de\ trabajo\ 1.png);
+    background-size: 300px 150px; /* Ajusta los valores según tus necesidades */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
 }
+
+
+h1 {
+    font-family: 'Poppins-Regular';
+    margin: 0;
+    font-size: 38px;
+    color: #acc8b9;
+}
+
+/*nav {
+    background-color: #9e6998;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}*/
 .container-nav {
     display: flex;
     padding: 10px;
     height: 50px;
-    background-color: black;
-    font-family:"Bebas Neue";
+    background-color: #9e6998;
+    font-family: 'Poppins-Regular';
     width: 100%;
+    text-align: center;
   }
-  
-  
   .navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
   
-  
-  .brand {
-    display: flex;
-    align-items: center;
-  }
-  
-  
-  li>a {
-    padding: 8px 24px;
-  }
-  
-  
-  li {
-    list-style-type: none;
-  }
-  
-  
-  a {
+
+a {
     color: white;
     text-decoration:none;
+    margin: 0 1em;
+    font-size: 1.2em;
+    font-family: 'Poppins-Regular';
   }
   
   
@@ -123,71 +67,154 @@ div{
     display: flex;
     align-items: center;
   }
+  li>a {
+    padding: 8px 24px;
+    
+  }
   
   
-  .button-menu-toggle {
+  li {
+    list-style-type: none;
+    color: #9e6998;
+    font-size: 20%;
+  }
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: #9e6998;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.contenedor {
+    display: flex;
+    background-color: #e5d9d1; /* Utilizamos flexbox para colocar los divs en línea */
+}
+.contenedor1 {
+    display: flex;
+   
+}
+.imagen1 {
+    margin-right: 100px; /* Añadimos un margen a la derecha para separar la imagen del texto */
+    padding-left:  10%;
+}
+.imagen2 {
+    margin-right: 100px; /* Añadimos un margen a la derecha para separar la imagen del texto */
+    padding-left:  10%;
+}
+
+.texto {
+    font-size: 60px; 
+    color: #2D212E;
+    line-height: 0.2;
+    padding-top: 10%;
+}
+.quien {
+    padding-top: 5%;
+    font-family: 'Poppins-Regular', sans-serif;
+    line-height: 1.1;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.categorias p {
+    margin-bottom: 5px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+.button-menu-toggle {
     display: none;
   }
-  @media (max-width: 768px) {
-    .column {
-      flex: 100%;
+@media (max-width: 768px) {
+    header {
+        background-image: url(img/WELLISTIC_Mesa\ de\ trabajo\ 1.png);
+        background-size: 150px 75px; /* Ajusta los valores según tus necesidades */
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+        padding: 5em 0;
     }
-  
-  
-    .nav-links {
-      display: none;
-    }
-  
-  
+
     .button-menu-toggle {
-      display: block;
-      background-color: white;
-      border:none;
-      border-radius: 50px;
-      padding: 0 24px;
-      font-family: monospace;
-      font-weight: bold;
-      font-size: 20px;
-    }
-   
-    .nav-links.nav-links-responsive {
-      position: absolute;
-      display: flex;
-      background-color: rgba(20,20,20,0.95);
-      width: 100%;
-      height: 100%;
-      top: 70px;
-      left: 0;
-      flex-direction: column;
-      padding-top: 200px;
-      align-items: center;
-      gap:70px;
-      font-size: 40px;
-  
-  
-    }
-    #banner{
-        background-color: #ffcf00;
-        color: #000;
-        font-family:"Bebas Neue";
-        font-size: 3em;
+        display: block;
+        background-color: white;
+        border:none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: 'Poppins-Regular', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #9e6998;
+      }
+      .nav-links.nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color: #e5d9d1;
         width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap:70px;
+        font-size: 80px;
+        color: #9e6998;
+        font-weight: bold;
+        font-family: 'Poppins-Regular';
+      }
+      a {
+        color: #9e6998;
+        text-decoration:none;
+        margin: 0 1em;
+        font-size: 50%;
+
+        
+      }
+      header {
+        background-image: url(img/WELLISTIC_Mesa\ de\ trabajo\ 1.png);
+        background-size: 300px 150px; /* Ajusta los valores según tus necesidades */
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+        padding: 5em 0;
     }
-    .caja{
-      display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+        background-color: #e5d9d1;
     }
-    iframe,video{
-      width: 200px;
+    .contenedor1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
     }
-    img{
-      width:60%;
-      padding: 50px;
+    
+    .imagen1 {
+        max-width: 200px; /* Establece el ancho máximo deseado */
+        width: 100%; /* Hace que la imagen sea responsive y se ajuste al contenedor */
     }
-  }
-  .greeting{
-    text-align: center;
-  }
+    .imagen2 {
+        max-width: 200px; /* Establece el ancho máximo deseado */
+        width: 90%; /* Hace que la imagen sea responsive y se ajuste al contenedor */
+        padding-left: 5%;
+        margin-left: 02%;
+    }
+    .texto {
+        font-size: 57px;
+        color: #2D212E;
+        line-height:30px; /* Ajusta el espaciado entre líneas según tus necesidades */
+        margin-top: 5px; /* Ajusta el margen superior según tus necesidades */
+        text-align: center; /* Centra el texto */
+        padding-top: 2%;
+    }
+}
