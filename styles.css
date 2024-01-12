@@ -127,7 +127,7 @@ footer {
 .button-menu-toggle {
     display: none;
   }
-@media (max-width: 768px) {
+@media (max-width: 375px.) {
     header {
         background-image: url(img/WELLISTIC_Mesa\ de\ trabajo\ 1.png);
         background-size: 150px 75px; /* Ajusta los valores según tus necesidades */
