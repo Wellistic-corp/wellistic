@@ -84,10 +84,13 @@ li {
 /* Añade estilos específicos para pantallas pequeñas */
 @media (max-width: 600px) {
     .imagen1 {
-        margin-right: 0;
-        padding-left: 0;
-        align-items: center;
+        max-width: 100%; /* Ajusta el ancho máximo para que sea responsive */
+        width: 100%; /* Hace que la imagen ocupe el ancho completo */
+        margin-right: 0; /* Elimina el margen derecho */
+        padding-left: 0; /* Elimina el padding izquierdo */
+        text-align: center; /* Centra la imagen */
     }
+
     .contenedor {
         padding: 10px; /* Ajusta el padding para pantallas pequeñas */
     }
@@ -96,7 +99,8 @@ li {
         font-size: 15px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
         padding-left: 9px;
         padding-right: 9px;
-        margin-left: 40%;
+        margin-left: 0; /* Ajusta el margen izquierdo */
+        text-align: center; /* Centra el texto */
     }
 }
 /* Resto del CSS permanece igual */
