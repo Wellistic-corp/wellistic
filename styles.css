@@ -99,10 +99,22 @@ li {
         font-size: 15px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
         padding-left: 9px;
         padding-right: 9px;
-        margin-left: 0; /* Ajusta el margen izquierdo */
+        margin-left: 9%;
+        margin-right: 9%; /* Ajusta el margen izquierdo */
         text-align: center; /* Centra el texto */
+        font-family: 'Poppins-Regular';
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.5;
+        color: #333;
+        text-align: justify;
+        margin-left: 9%;
+        margin-right: 9%; 
+        font-family: 'Poppins-Regular';
     }
 }
+
 /* Resto del CSS permanece igual */
 
 section {
@@ -110,7 +122,7 @@ section {
 }
 
 footer {
-    background-color: #425E66;
+    background-color: #9e6998;
     color: #fff;
     text-align: center;
     padding: 1em 0;
