@@ -5,39 +5,35 @@
     font-weight: normal;
     font-style: normal;
 }
-
 body {
     font-family: 'Poppins-Regular', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #e5d9d1;
+}
+div {
+    max-width: 800px; /* Limita el ancho del texto para que no se extienda demasiado */
+    margin: 0 auto; /* Centra el bloque de texto en la página */
+    text-align: justify; /* Justifica el texto */
 }
 
-header {
-    background-image: url(img/WELLISTIC_Mesa\ de\ trabajo\ 1.png);
-    background-size: 300px 150px; /* Ajusta los valores según tus necesidades */
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    text-align: center;
-    padding: 5em 0;
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 10px; /* Ajusta el padding superior e inferior según tus necesidades */
 }
 
 
-h1 {
-    font-family: 'Poppins-Regular';
-    margin: 0;
-    font-size: 38px;
-    color: #acc8b9;
-}
-
-/*nav {
-    background-color: #9e6998;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}*/
 .container-nav {
     display: flex;
     padding: 10px;
@@ -46,13 +42,13 @@ h1 {
     font-family: 'Poppins-Regular';
     width: 100%;
     text-align: center;
-  }
-  .navbar {
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }
-  
+}
 
 a {
     color: white;
@@ -60,24 +56,45 @@ a {
     margin: 0 1em;
     font-size: 1.2em;
     font-family: 'Poppins-Regular';
-  }
-  
-  
-  .nav-links {
+}
+
+.nav-links {
     display: flex;
     align-items: center;
-  }
-  li>a {
+}
+
+li > a {
     padding: 8px 24px;
-    
-  }
-  
-  
-  li {
+}
+
+li {
     list-style-type: none;
     color: #9e6998;
     font-size: 20%;
-  }
+}
+
+.imagen1 img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+
+/* Añade estilos específicos para pantallas pequeñas */
+@media (max-width: 600px) {
+    .imagen1 {
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .contenedor {
+        padding: 10px;
+    }
+
+    .texto {
+        font-size: 20px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+    }
+}
+/* Resto del CSS permanece igual */
+
 section {
     padding: 2em;
 }
@@ -97,9 +114,16 @@ footer {
     display: flex;
    
 }
+.imagen1 img {
+    max-width: 120%; /* Ajusta el ancho máximo deseado (por ejemplo, 120%) */
+    height: auto;
+    max-height: 150px; /* Ajusta la altura máxima deseada */
+}
+
+/* Ajusta el margen y el padding para la primera imagen */
 .imagen1 {
-    margin-right: 100px; /* Añadimos un margen a la derecha para separar la imagen del texto */
-    padding-left:  10%;
+    margin-right: 50px; /* Ajusta el margen derecho según tus necesidades */
+    padding-left: 5%; /* Ajusta el padding izquierdo según tus necesidades */
 }
 .imagen2 {
     margin-right: 100px; /* Añadimos un margen a la derecha para separar la imagen del texto */
@@ -127,7 +151,7 @@ footer {
 .button-menu-toggle {
     display: none;
   }
-@media (max-width: 375px.) {
+@media (max-width:430x932px) {
     header {
         background-image: url(img/WELLISTIC_Mesa\ de\ trabajo\ 1.png);
         background-size: 150px 75px; /* Ajusta los valores según tus necesidades */
