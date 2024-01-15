@@ -49,6 +49,7 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: #9e6998;
 }
 
 a {
