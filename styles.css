@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #e5d9d1;
+    background-color: #C9EA7D;
 }
 div {
     max-width: 800px; /* Limita el ancho del texto para que no se extienda demasiado */
@@ -24,6 +24,15 @@ p {
     color: #333;
     text-align: justify;
 }
+h3 {
+    font-size: 25px;
+    line-height: 1;
+    color: #FFF;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 3px ;
+}
+
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -76,19 +85,19 @@ li {
 }
 
 .imagen1 img {
-    max-width: 100%;
+    max-width: 200px;
     height: auto;
-    max-height: 150px;
+    max-height: 300px;
 }
 
-/* Añade estilos específicos para pantallas pequeñas */
+/* Ajustes específicos para pantallas pequeñas */
 @media (max-width: 600px) {
     .imagen1 {
-        max-width: 100%; /* Ajusta el ancho máximo para que sea responsive */
-        width: 100%; /* Hace que la imagen ocupe el ancho completo */
-        margin-right: 0; /* Elimina el margen derecho */
-        padding-left: 0; /* Elimina el padding izquierdo */
-        text-align: center; /* Centra la imagen */
+        width: 100%; /* Hace que la imagen sea responsive y ocupe el ancho completo */
+        max-width: 300px; /* Ajusta el ancho máximo deseado */
+        max-height: 300px; /* Ajusta la altura máxima deseada */
+        margin-top: 2px;
+        padding-bottom: 0; /* Elimina el padding inferior */
     }
 
     .contenedor {
@@ -100,47 +109,61 @@ li {
         padding-left: 9px;
         padding-right: 9px;
         margin-left: 9%;
-        margin-right: 9%; /* Ajusta el margen izquierdo */
+        margin-right: 9%;
         text-align: center; /* Centra el texto */
         font-family: 'Poppins-Regular';
     }
+
     p {
         font-size: 15px;
         line-height: 1.5;
         color: #333;
         text-align: justify;
         margin-left: 9%;
-        margin-right: 9%; 
-        font-family: 'Poppins-Regular';
+        margin-right: 9%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px; /* Ajusta el espacio entre el contenido y el pie de página */
     }
 }
 
-/* Resto del CSS permanece igual */
 
 section {
     padding: 2em;
 }
 
 footer {
-    background-color: #9e6998;
-    color: #fff;
+    background-color: #425E66;
+    color: #FFFF;
     text-align: center;
     padding: 1em 0;
 }
 
 .contenedor {
     display: flex;
-    background-color: #e5d9d1; /* Utilizamos flexbox para colocar los divs en línea */
+    background-color: #C9EA7D; /* Utilizamos flexbox para colocar los divs en línea */
 }
 .contenedor1 {
     display: flex;
    
 }
 .imagen1 img {
-    max-width: 120%; /* Ajusta el ancho máximo deseado (por ejemplo, 120%) */
+    max-width: 200px; /* Ajusta el ancho máximo deseado */
+    width: 100%; /* Hace que la imagen sea responsive y ocupe el ancho completo */
     height: auto;
-    max-height: 150px; /* Ajusta la altura máxima deseada */
+    max-height: 300px; /* Ajusta la altura máxima deseada */
+    margin-top: 2px;
+    padding-bottom: 0; /* Elimina el padding inferior */
+    display: block; /* Añade display: block para centrar correctamente */
+    margin-left: auto; /* Centra la imagen en el lado izquierdo */
+    margin-right: auto; /* Centra la imagen en el lado derecho */
 }
+
 
 /* Ajusta el margen y el padding para la primera imagen */
 .imagen1 {
@@ -246,8 +269,10 @@ footer {
     }
     
     .imagen1 {
-        max-width: 200px; /* Establece el ancho máximo deseado */
+        
         width: 100%; /* Hace que la imagen sea responsive y se ajuste al contenedor */
+        max-width: 300px; /* Ajusta el ancho máximo para que sea responsive */
+        max-height: 300px;
     }
     .imagen2 {
         max-width: 200px; /* Establece el ancho máximo deseado */
