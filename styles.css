@@ -22,12 +22,13 @@ p {
     font-size: 18px;
     line-height: 1.5;
     color: #333;
-    text-align: justify;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3 {
     font-size: 25px;
     line-height: 1;
-    color: #FFF;
+    color: #425E66;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 3px ;
