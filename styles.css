@@ -89,7 +89,7 @@ li {
 .imagen1 img {
     max-width: 200px;
     height: auto;
-    max-height: 300px;
+    max-height: 400px;
 }
 
 /* Ajustes específicos para pantallas pequeñas */
@@ -97,7 +97,7 @@ li {
     .imagen1 {
         width: 100%; /* Hace que la imagen sea responsive y ocupe el ancho completo */
         max-width: 300px; /* Ajusta el ancho máximo deseado */
-        max-height: 300px; /* Ajusta la altura máxima deseada */
+        max-height: 400px; /* Ajusta la altura máxima deseada */
         margin-top: 2px;
         padding-bottom: 0; /* Elimina el padding inferior */
     }
@@ -155,10 +155,10 @@ footer {
    
 }
 .imagen1 img {
-    max-width: 200px; /* Ajusta el ancho máximo deseado */
+    max-width: 250px; /* Ajusta el ancho máximo deseado */
     width: 100%; /* Hace que la imagen sea responsive y ocupe el ancho completo */
     height: auto;
-    max-height: 300px; /* Ajusta la altura máxima deseada */
+    max-height: 800px; /* Ajusta la altura máxima deseada */
     margin-top: 2px;
     padding-bottom: 0; /* Elimina el padding inferior */
     display: block; /* Añade display: block para centrar correctamente */
