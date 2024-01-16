@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #C9EA7D;
+    background-color: #c9ea6d;
 }
 div {
     max-width: 800px; /* Limita el ancho del texto para que no se extienda demasiado */
@@ -31,7 +31,8 @@ h3 {
     color: #425E66;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 5px ;
+    margin-left: 32px ;
+    margin-right: 15px;
 }
 
 .contenedor {
@@ -59,7 +60,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #425E66;
+    background-color: #c9ea6d;
 }
 
 a {
@@ -147,7 +148,7 @@ footer {
 
 .contenedor {
     display: flex;
-    background-color: #C9EA7D; /* Utilizamos flexbox para colocar los divs en línea */
+    background-color: #c9ea6d; /* Utilizamos flexbox para colocar los divs en línea */
 }
 .contenedor1 {
     display: flex;
