@@ -164,6 +164,7 @@ footer {
     display: block; /* Añade display: block para centrar correctamente */
   /* Centra la imagen en el lado izquierdo */
     margin-right: 10px; /* Centra la imagen en el lado derecho */
+    margin-left: 16px;
 }
 
 
