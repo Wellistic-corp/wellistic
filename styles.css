@@ -163,8 +163,8 @@ footer {
     padding-bottom: 0; /* Elimina el padding inferior */
     display: block; /* Añade display: block para centrar correctamente */
   /* Centra la imagen en el lado izquierdo */
-    margin-right: 25px; /* Centra la imagen en el lado derecho */
-    margin-left: 50px;
+    margin-right: 19px; /* Centra la imagen en el lado derecho */
+    margin-left: 80px;
 }
 
 
