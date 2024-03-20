@@ -28,7 +28,7 @@ p {
 h3 {
     font-size: 25px;
     line-height: 1;
-    color: #425E66;
+    color: #966c94;
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 28px ;
@@ -96,7 +96,7 @@ li {
 @media (max-width: 600px) {
     .imagen1 {
         width: 100%; /* Hace que la imagen sea responsive y ocupe el ancho completo */
-        max-width: 300px; /* Ajusta el ancho máximo deseado */
+        max-width: 400px; /* Ajusta el ancho máximo deseado */
         max-height: 400px; /* Ajusta la altura máxima deseada */
         margin-top: 2px;
         padding-bottom: 0; /* Elimina el padding inferior */
@@ -140,7 +140,7 @@ section {
 }
 
 footer {
-    background-color: #425E66;
+    background-color: #daaaf6;
     color: #FFFF;
     text-align: center;
     padding: 1em 0;
@@ -148,7 +148,7 @@ footer {
 
 .contenedor {
     display: flex;
-    background-color: #c9ea6d; /* Utilizamos flexbox para colocar los divs en línea */
+    background-color: #cde64a; /* Utilizamos flexbox para colocar los divs en línea */
 }
 .contenedor1 {
     display: flex;
