@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #c9ea6d;
+    background-color: #F9EFE5;
 }
 div {
     max-width: 800px; /* Limita el ancho del texto para que no se extienda demasiado */
@@ -60,7 +60,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #c9ea6d;
+    background-color: #F9EFE5;
 }
 
 a {
