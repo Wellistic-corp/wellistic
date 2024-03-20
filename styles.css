@@ -29,7 +29,7 @@ h3 {
     font-size: 25px;
     line-height: 1;
     color: #966c94;
-    text-align: justify;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 28px ;
     margin-right: 15px;
@@ -164,7 +164,7 @@ footer {
     display: block; /* Añade display: block para centrar correctamente */
   /* Centra la imagen en el lado izquierdo */
     margin-right: 8px; /* Centra la imagen en el lado derecho */
-    margin-left: 65px;
+    margin-left: 50px;
 }
 
 
