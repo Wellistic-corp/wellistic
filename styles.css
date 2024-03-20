@@ -148,7 +148,7 @@ footer {
 
 .contenedor {
     display: flex;
-    background-color: #cde64a; /* Utilizamos flexbox para colocar los divs en línea */
+    background-color: #F9EFE5; /* Utilizamos flexbox para colocar los divs en línea */
 }
 .contenedor1 {
     display: flex;
@@ -164,7 +164,7 @@ footer {
     display: block; /* Añade display: block para centrar correctamente */
   /* Centra la imagen en el lado izquierdo */
     margin-right: 8px; /* Centra la imagen en el lado derecho */
-    margin-left: 28px;
+    margin-left: 65px;
 }
 
 
