@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F9EFE5;
+    background-color: #F9F0E1;
 }
 div {
     max-width: 800px; /* Limita el ancho del texto para que no se extienda demasiado */
@@ -28,11 +28,18 @@ p {
 h3 {
     font-size: 25px;
     line-height: 1;
-    color: #daaaf6;
+    color: #A36140;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 28px ;
     margin-right: 15px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #F9F0E1;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contenedor {
@@ -60,7 +67,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #F9EFE5;
+    background-color: #F9F0E1;
 }
 
 a {
@@ -140,7 +147,7 @@ section {
 }
 
 footer {
-    background-color: #daaaf6;
+    background-color: #DF081A;
     color: #FFFF;
     text-align: center;
     padding: 1em 0;
@@ -148,7 +155,7 @@ footer {
 
 .contenedor {
     display: flex;
-    background-color: #F9EFE5; /* Utilizamos flexbox para colocar los divs en línea */
+    background-color: #F9F0E1; /* Utilizamos flexbox para colocar los divs en línea */
 }
 .contenedor1 {
     display: flex;
@@ -261,7 +268,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding: 2em;
-        background-color: #e5d9d1;
+        background-color: #F9F0E1;
     }
     .contenedor1 {
         display: flex;
