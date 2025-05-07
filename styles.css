@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F9F0E1;
+    background-color: #fbdcdd;
 }
 div {
     max-width: 800px; /* Limita el ancho del texto para que no se extienda demasiado */
@@ -28,7 +28,7 @@ p {
 h3 {
     font-size: 25px;
     line-height: 1;
-    color: #9e6998;
+    color: #e83389;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 28px ;
@@ -37,7 +37,7 @@ h3 {
 h4 {
     font-size: 18px;
     line-height: 1.5;
-    color: #F9F0E1;
+    color: #fbdcdd;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -67,7 +67,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #F9F0E1;
+    background-color: #fbdcdd;
 }
 
 a {
@@ -89,7 +89,7 @@ li > a {
 
 li {
     list-style-type: none;
-    color: #9e6998;
+    color: #e83389;
     font-size: 20%;
 }
 
@@ -147,7 +147,7 @@ section {
 }
 
 footer {
-    background-color: #9e6998;
+    background-color: #e83389;
     color: #FFFF;
     text-align: center;
     padding: 1em 0;
@@ -155,7 +155,7 @@ footer {
 
 .contenedor {
     display: flex;
-    background-color: #F9F0E1; /* Utilizamos flexbox para colocar los divs en línea */
+    background-color: #fbdcdd; /* Utilizamos flexbox para colocar los divs en línea */
 }
 .contenedor1 {
     display: flex;
@@ -187,7 +187,7 @@ footer {
 
 .texto {
     font-size: 60px; 
-    color: #2D212E;
+    color: #ee731b;
     line-height: 0.2;
     padding-top: 10%;
 }
@@ -241,12 +241,12 @@ footer {
         align-items: center;
         gap:70px;
         font-size: 80px;
-        color: #9e6998;
+        color: #e83389;
         font-weight: bold;
         font-family: 'Poppins-Regular';
       }
       a {
-        color: #9e6998;
+        color: #e83389;
         text-decoration:none;
         margin: 0 1em;
         font-size: 50%;
@@ -268,7 +268,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding: 2em;
-        background-color: #F9F0E1;
+        background-color: #fbdcdd;
     }
     .contenedor1 {
         display: flex;
@@ -292,7 +292,7 @@ footer {
     }
     .texto {
         font-size: 57px;
-        color: #2D212E;
+        color: #ee731b;
         line-height:30px; /* Ajusta el espaciado entre líneas según tus necesidades */
         margin-top: 5px; /* Ajusta el margen superior según tus necesidades */
         text-align: center; /* Centra el texto */
